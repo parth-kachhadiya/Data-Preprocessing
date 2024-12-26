@@ -32,7 +32,7 @@ def wisker(column):
     return (lwr_wisker, upr_wisker)
 
 
-dataset = pd.read_csv("D:\\Machine_Learning\\codes\\Own_model\\data_csv\\Student_Performance.csv")
+dataset = pd.read_csv("Student_Performance.csv")
 
 """ - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - Statistics - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - <> - """
 report, list_of_repeating_records = generate_report(dataset)
